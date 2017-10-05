@@ -1,0 +1,31 @@
+<!--
+<div id="search-component">
+    <h4>Message Search</h4>
+    <input #searchBox id="search-box" (ngModelChange)="search($event)" [ngModel]="list">
+    <div>
+        <ul *ngFor="let msg of msgs">
+            <li>{{msg.comment}}</li>
+        </ul>
+    </div>
+</div>
+-->
+<h4 style="padding-left:50px">Message Search</h4>
+<div style="width:50%;padding-left:50px;">
+    <nav>
+        <div class="nav-wrapper">
+            <div class="input-field">
+                <input id="search" type="search" required (ngModelChange)="search($event)" [ngModel]="list">
+                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                <i class="material-icons">close</i>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<br>
+
+<div style="width:50%;padding-left:50px;">
+    <ul class="collection" *ngFor="let msg of msgs">
+        <li class="collection-item">{{msg.comment}}</li>
+    </ul>
+</div>

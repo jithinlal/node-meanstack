@@ -1,0 +1,26 @@
+<app-after-navbar></app-after-navbar>
+
+<div style="padding-left:100px">
+    <h1 style="color:pink">My Posts</h1>
+    <div class="col s6">
+        <table class="highlight" style="width:50%">
+            <thead>
+                <tr>
+                    <th>
+                        <h5>Messages</h5>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let list of lists; let ind = index">
+                    <td>
+                        {{list.comment}}
+                    </td>
+                    <div style="padding-top:6px;padding-right:0px">
+                        <a class="waves-effect waves-light btn" (click)="delete(ind, list._id)">X</a>
+                    </div>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

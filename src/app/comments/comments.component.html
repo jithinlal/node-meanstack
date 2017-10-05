@@ -1,0 +1,29 @@
+<app-after-navbar></app-after-navbar>
+
+<div style="padding-left:100px">
+    <h1 style="color:pink">Comments</h1>
+    <div class="col s6">
+        <table class="bordered highlight" style="width:50%">
+            <thead>
+                <tr>
+                    <th>
+                        <h5>User</h5>
+                    </th>
+                    <th>
+                        <h5>Messages</h5>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let list of lists">
+                    <td>
+                        {{list.user.username}}
+                    </td>
+                    <td>
+                        {{list.comment}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
