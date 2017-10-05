@@ -5,19 +5,6 @@ var passport = require('passport');
 var User = require('../model/User');
 var List = require('../model/List');
 
-// router.post('/', passport.authenticate('local', { failureRedirect: '/' }), function(req, res) {
-//     User.findOne({ username: req.body.username }, function(err, user) {
-//         if (user) {
-//             console.log('success');
-//             res.json({ success: true });
-//         } else {
-//             console.log('failed');
-//             res.json({ success: false });
-//         }
-
-//     });
-// });
-
 // check if a user is authenticated or not
 // according this components are redirected in the angular side
 router.get('/auth', function(req, res, next) {
