@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.1.
 
+## Running the App
+
+Create a monlab account and create a collection inside it. Create a user within it, which will
+give you a username and password. Obtain the URL thus produced and paste it in the `/model/Database.js` file.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
