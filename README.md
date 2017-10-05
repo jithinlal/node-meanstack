@@ -6,6 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Create a mlab account and create a collection inside it. Create a user within it, which will
 give you a username and password. Obtain the URL thus produced and paste it in the `/model/Database.js` file.
+Install node modules via `npm install` and build the app using `ng build`. The default port is 3002. So run the server in `localhost:3002`.
 
 ## Development server
 
