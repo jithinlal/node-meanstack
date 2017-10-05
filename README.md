@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Running the App
 
-Create a monlab account and create a collection inside it. Create a user within it, which will
+Create a mlab account and create a collection inside it. Create a user within it, which will
 give you a username and password. Obtain the URL thus produced and paste it in the `/model/Database.js` file.
 
 ## Development server
