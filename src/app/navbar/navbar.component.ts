@@ -26,12 +26,6 @@ export class NavbarComponent implements OnInit {
     }
 
     ngOnInit() {
-        // this.commentService.authenticate()
-        //     .then(res => {
-        //         if (!res.success) {
-        //             this.router.navigate(['/home']);
-        //         }
-        //     });
     }
 
 }
